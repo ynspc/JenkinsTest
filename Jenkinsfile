@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'any' }
+  agent { label 'ynspc1' }
   stages {
     stage('Check version') {
       steps {
