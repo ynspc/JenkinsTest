@@ -6,7 +6,7 @@ pipeline {
         sh "node --version"
         // sh "npm --version"
         sh "git status"
-        sh "git pull origin master"
+        sh "git pull origin main"
       }
     }
   }
