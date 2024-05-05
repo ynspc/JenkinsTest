@@ -4,7 +4,7 @@ pipeline {
     stage('Check version') {
       steps {
         sh "node --version"
-        sh "npm --version"
+        // sh "npm --version"
         sh "git status"
         sh "git pull origin master"
       }
